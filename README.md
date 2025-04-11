@@ -1,17 +1,59 @@
-# Angular-Admin-Dashboard
+# Dashboard
 
- Features Implemented:
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
 
-Sidebar Navigation: Fully responsive sidebar with routes to Dashboard, Locations, Products, Sales, and Help.
+## Development server
 
-Summary Cards: Interactive data cards displaying key metrics:32 Locations , 295 Shops , 45,784 Products Sold, ₹346,928 Total Revenue
+To start a local development server, run:
 
-Data Visualization: Month-wise Sales Graph: Revenue trends across different regions (Arizona, Connecticut, Ohio)
+```bash
+ng serve
+```
 
-Category-wise Sales Pie Chart: Clear distribution across Electronics, Groceries, Cosmetics, etc.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-Top 3 Products Bar Chart: Highlighting best-performing products
+## Code scaffolding
 
-Recent Transactions Panel: Displays the latest purchase activity with status indicators (e.g., Confirmed, Approved)
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-User Panel: Basic user identification and secure session header for "Sabiha"
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
